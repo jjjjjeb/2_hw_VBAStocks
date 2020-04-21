@@ -1,16 +1,16 @@
-' Create a script that will:
+' This script will:
     ' - Loop through all the stocks for one year
     '   for each run and take the following information.
         ' 1 - The ticker symbol.
-        ' 2 - Yearly change from opening price at the beginning of a given year
-        '     to the closing price at the end of that year.
-        ' 3 - The percent change from opening price at the beginning of a given year
-        '     to the closing price at the end of that year.
+        ' 2 - Yearly change from opening price at the beginning of the year
+        '     to the closing price at the end of the year.
+        ' 3 - The percent change from opening price at the beginning of the year
+        '     to the closing price at the end of the year.
         ' 4 - The total stock volume of the stock.
-        ' 5 - You should also have conditional formatting
-        '     that will highlight positive change in green and negative change in red.
-        ' 6 - Add another table that states the greatest increase, decrease,
-        '     and highest total volume tickers per worksheet
+        ' 5 - Sets conditional formatting  that will highlight positive change 
+        '     in green and negative change in red.
+        ' 6 - Adds another table that states the greatest increase, decrease,
+        '     and highest total volume tickers per worksheet.
 '____________________________________________________________________________________________
 
 Sub ABCtest()
